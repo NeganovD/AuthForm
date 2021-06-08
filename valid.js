@@ -8,10 +8,9 @@ var UpperLetters = /[A-ZА-Я]/g; //задание массиву большие
 var Numbers = /[0-9]/g; //задание массиву цифры.
 var specznak = /[!"№;%:?*()@#\s]/g; //задает массиву нужные спец сивмволы.
 
-document.getElementById('button').onclick = function() {
-
+document.getElementById('button').onclick = function() 
+{
     if (iemail.value.match(rvfemail)) {
-
     } else {
         alert('Проверьте правильность ввода email');
         return false;
@@ -28,9 +27,7 @@ document.getElementById('button').onclick = function() {
     if (ipass.value.match(specznak)) {} else {
         alert('Пароль должен иметь хотя бы один спецзнак');
     }
-
-    if (iemail.value == xxx && ipass.value == yyy)
-    ///if (iemail.value == xxx && ipass.value == yyy)
+    if (iemail.value.toUpperCase() == xxx.toUpperCase() && ipass.value == yyy)
         alert('welcome')
     else
         alert('Не верный логин или пароль');

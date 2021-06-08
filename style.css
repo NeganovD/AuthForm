@@ -1,0 +1,52 @@
+time {
+    position: absolute;
+    font-weight: bold;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*------------------------------------------------------------------*/
+
+body {
+    background: linear-gradient(90rad, #FAECD5, #90c0aa);
+    /*визуальное оформление фона градиентом*/
+    display: inline-table;
+    /*растягивает градиент на весь экран*/
+}
+
+
+/*------------------------------------------------------------------*/
+
+form {
+    /*центрование элементов*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #000000;
+    background: linear-gradient(135rad, #FAECD5, #90c0aa);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+/*------------------------------------------------------------------*/
+
+.inputstyle {
+    outline: none;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.inputstyle:focus {
+    background-color: rgb(228, 255, 228);
+}
+
+.button:hover {
+    background-color: rgb(0, 255, 21);
+}

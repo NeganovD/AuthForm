@@ -1,3 +1,4 @@
+var a = ''; //чтобы в консоли не было ошибки, что значение а не присвоено, если условие не выполнится.
 navigator.userAgent.search();
 console.log(navigator.userAgent);//выводим имя браузера и ищем то, что может указывать на IE
 if (navigator.userAgent.search(/.NET4/) > 0 || navigator.userAgent.search(/NET CLR /) > 0) 

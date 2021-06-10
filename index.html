@@ -3,9 +3,8 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
 </head>
-
+<script src='checkbrowser.js'></script> <!--добавляем проверку бразуера выше body, для того чтобы страница дальше не грузилась, если не проходит проверку на браузер
 <body>
-
     <form id='auth' name=" auth">
         <div>
             <div>
@@ -19,51 +18,14 @@
         <div>
             <div>
                 <input type='password' class='password inputstyle' placeholder="Введите пароль " id='inputPass' name="inputPass" required minlength="6" />
-                <!--<input class='password inputstyle' placeholder="Введите пароль " id='inputPass' name="inputPass" required minlength="6" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" />
-            -->
             </div>
         </div>
         <div>
             <input id='button' type='submit' class='inputstyle button' value='Войти' />
         </div>
     </form>
-
     <!--Вывод времени-->
     <time class='time'></time>
     <script src='datetime.js'></script>
-    <script src='checkbrowser.js'></script>
     <script src='valid.js'></script>
-
-
-
-    <!----------------->
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
